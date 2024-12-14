@@ -1,0 +1,3 @@
+/home/adam/Repos/ps_data_structures_and_algorithms/Section 3/cmake-build-debug/CMakeFiles/Section_3.dir
+/home/adam/Repos/ps_data_structures_and_algorithms/Section 3/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/adam/Repos/ps_data_structures_and_algorithms/Section 3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
