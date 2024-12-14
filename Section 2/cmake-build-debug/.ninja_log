@@ -1,0 +1,7 @@
+# ninja log v6
+1	88	1734189920913880018	CMakeFiles/Section_2.dir/main.cpp.o.ddi	d311e3ed87ea9dc2
+89	92	1734189921003881176	CMakeFiles/Section_2.dir/CXX.dd	6b8ce6cadabf33e0
+89	92	1734189921003881176	/home/adam/Repos/ps_data_structures_and_algorithms/Section 2/cmake-build-debug/CMakeFiles/Section_2.dir/CXXModules.json	6b8ce6cadabf33e0
+89	92	1734189921003881176	CMakeFiles/Section_2.dir/main.cpp.o.modmap	6b8ce6cadabf33e0
+92	494	1734189921004881189	CMakeFiles/Section_2.dir/main.cpp.o	a130bef93adff888
+495	556	1734189921407886369	Section_2	d7f933a9c8acf16b
