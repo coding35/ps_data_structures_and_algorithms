@@ -43313,22 +43313,171 @@ namespace std __attribute__ ((__visibility__ ("default")))
 }
 # 2 "/home/adam/Repos/ps_data_structures_and_algorithms/Section 2/main.cpp" 2
 
+# 1 "/usr/include/c++/14/cassert" 1 3
+# 41 "/usr/include/c++/14/cassert" 3
+       
+# 42 "/usr/include/c++/14/cassert" 3
+
+
+# 1 "/usr/include/assert.h" 1 3 4
+# 64 "/usr/include/assert.h" 3 4
+extern "C" {
+
+
+extern void __assert_fail (const char *__assertion, const char *__file,
+      unsigned int __line, const char *__function)
+     noexcept (true) __attribute__ ((__noreturn__));
+
+
+extern void __assert_perror_fail (int __errnum, const char *__file,
+      unsigned int __line, const char *__function)
+     noexcept (true) __attribute__ ((__noreturn__));
 
 
 
-# 5 "/home/adam/Repos/ps_data_structures_and_algorithms/Section 2/main.cpp"
+
+extern void __assert (const char *__assertion, const char *__file, int __line)
+     noexcept (true) __attribute__ ((__noreturn__));
+
+
+}
+# 45 "/usr/include/c++/14/cassert" 2 3
+# 4 "/home/adam/Repos/ps_data_structures_and_algorithms/Section 2/main.cpp" 2
+
+
+
+# 6 "/home/adam/Repos/ps_data_structures_and_algorithms/Section 2/main.cpp"
+class IndexOutOfBoundsException : public std::exception {
+public:
+    [[nodiscard]]
+    const char* what() const noexcept override {
+        return "Index out of bounds.";
+    }
+};
+
+class IntArray {
+
+private :
+    int* m_ptr{nullptr};
+    int m_size{0};
+
+public:
+    IntArray() = default;
+
+
+
+    explicit IntArray(int size) {
+        if(size != 0){
+
+            m_ptr = new int[size]{};
+            m_size = size;
+        }
+    }
+
+
+    ~IntArray(){
+        delete[] m_ptr;
+    }
+
+
+    [[nodiscard]]
+    int Size() const {
+        return m_size;
+    }
+
+
+    [[nodiscard]]
+    bool IsEmpty() const {
+         return (m_size == 0);
+    }
+
+
+    [[nodiscard]]
+    bool IsValidIndex(int index) const {
+        return (index >= 0) && (index < m_size);
+    }
+
+
+
+    int& operator[](int index){
+        if(!IsValidIndex(index)){
+
+            throw IndexOutOfBoundsException{};
+        }
+        return m_ptr[index];
+    }
+
+
+    int operator[](int index) const {
+        if(!IsValidIndex(index)){
+
+            throw IndexOutOfBoundsException{};
+        }
+        return m_ptr[index];
+    }
+};
+
+
+
 int main() {
+    using std::cout;
 
+    try {
 
-    auto lang = "C++";
-    std::cout << "Hello and welcome to " << lang << "!\n";
+        cout << " Creating an empty array.\n";
+        IntArray a{};
+        cout << " a.Size() is " << a.Size() << "\n";
+        
+# 86 "/home/adam/Repos/ps_data_structures_and_algorithms/Section 2/main.cpp" 3 4
+       (static_cast <bool> (
+# 86 "/home/adam/Repos/ps_data_structures_and_algorithms/Section 2/main.cpp"
+       a.IsEmpty()
+# 86 "/home/adam/Repos/ps_data_structures_and_algorithms/Section 2/main.cpp" 3 4
+       ) ? void (0) : __assert_fail (
+# 86 "/home/adam/Repos/ps_data_structures_and_algorithms/Section 2/main.cpp"
+       "a.IsEmpty()"
+# 86 "/home/adam/Repos/ps_data_structures_and_algorithms/Section 2/main.cpp" 3 4
+       , __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__))
+# 86 "/home/adam/Repos/ps_data_structures_and_algorithms/Section 2/main.cpp"
+                          ;
 
-    for (int i = 1; i <= 5; i++) {
+        cout << " -----------------------------------------\n";
 
+        cout << " Creating an array containing 10 elements.\n";
+        IntArray b{10};
+        cout << " b.Size() is " << b.Size() << "\n";
+        
+# 93 "/home/adam/Repos/ps_data_structures_and_algorithms/Section 2/main.cpp" 3 4
+       (static_cast <bool> (
+# 93 "/home/adam/Repos/ps_data_structures_and_algorithms/Section 2/main.cpp"
+       !b.IsEmpty()
+# 93 "/home/adam/Repos/ps_data_structures_and_algorithms/Section 2/main.cpp" 3 4
+       ) ? void (0) : __assert_fail (
+# 93 "/home/adam/Repos/ps_data_structures_and_algorithms/Section 2/main.cpp"
+       "!b.IsEmpty()"
+# 93 "/home/adam/Repos/ps_data_structures_and_algorithms/Section 2/main.cpp" 3 4
+       , __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__))
+# 93 "/home/adam/Repos/ps_data_structures_and_algorithms/Section 2/main.cpp"
+                           ;
 
+        cout << " -----------------------------------------\n";
 
+        cout << " Setting b[0] = 10 \n";
+        b[0] = 10;
+        cout << " b[0] is " << b[0] << "\n";
 
-        std::cout << "i = " << i << std::endl;
+        cout << " -----------------------------------------\n";
+
+        cout << " Getting b[0] \n";
+        cout << " b[0] is " << b[0] << "\n";
+
+        cout << " -----------------------------------------\n";
+
+        cout << " Trying to access b[12] \n";
+        cout << " b[10] is " << b[12] << "\n";
+    }
+    catch (const IndexOutOfBoundsException& e){
+        cout << "Exception: " << e.what() << "\n";
     }
 
     return 0;
