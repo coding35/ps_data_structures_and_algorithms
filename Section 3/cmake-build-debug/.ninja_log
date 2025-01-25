@@ -1,7 +1,85 @@
 # ninja log v6
-1	83	1734190026825207251	CMakeFiles/Section_3.dir/main.cpp.o.ddi	e2044bc8e8435056
-83	86	1734190026909208293	CMakeFiles/Section_3.dir/CXX.dd	71171b5569f80ae8
-83	86	1734190026909208293	/home/adam/Repos/ps_data_structures_and_algorithms/Section 3/cmake-build-debug/CMakeFiles/Section_3.dir/CXXModules.json	71171b5569f80ae8
-83	86	1734190026909208293	CMakeFiles/Section_3.dir/main.cpp.o.modmap	71171b5569f80ae8
-86	526	1734190026910208306	CMakeFiles/Section_3.dir/main.cpp.o	2e9f38056f14c04
-526	586	1734190027350213765	Section_3	d056d6d7b32afdec
+1	88	1734189920913880018	CMakeFiles/Section_2.dir/main.cpp.o.ddi	d311e3ed87ea9dc2
+89	92	1734189921003881176	CMakeFiles/Section_2.dir/CXX.dd	6b8ce6cadabf33e0
+89	92	1734189921003881176	/home/adam/Repos/ps_data_structures_and_algorithms/Section 2/cmake-build-debug/CMakeFiles/Section_2.dir/CXXModules.json	6b8ce6cadabf33e0
+89	92	1734189921003881176	CMakeFiles/Section_2.dir/main.cpp.o.modmap	6b8ce6cadabf33e0
+92	494	1734189921004881189	CMakeFiles/Section_2.dir/main.cpp.o	a130bef93adff888
+495	556	1734189921407886369	Section_2	d7f933a9c8acf16b
+14	143	1734194503507278396	CMakeFiles/Section_2.dir/main.cpp.o.ddi	d311e3ed87ea9dc2
+143	147	1734194503636280010	CMakeFiles/Section_2.dir/CXX.dd	6b8ce6cadabf33e0
+143	147	1734194503636280010	/home/adam/Repos/ps_data_structures_and_algorithms/Section 2/cmake-build-debug/CMakeFiles/Section_2.dir/CXXModules.json	6b8ce6cadabf33e0
+143	147	1734194503636280010	CMakeFiles/Section_2.dir/main.cpp.o.modmap	6b8ce6cadabf33e0
+147	663	1734194503640280060	CMakeFiles/Section_2.dir/main.cpp.o	a130bef93adff888
+663	749	1734194504156286517	Section_2	d7f933a9c8acf16b
+2	113	1734194542934771747	CMakeFiles/Section_2.dir/main.cpp.o.ddi	d311e3ed87ea9dc2
+113	118	1734194543045773136	CMakeFiles/Section_2.dir/CXX.dd	6b8ce6cadabf33e0
+113	118	1734194543045773136	/home/adam/Repos/ps_data_structures_and_algorithms/Section 2/cmake-build-debug/CMakeFiles/Section_2.dir/CXXModules.json	6b8ce6cadabf33e0
+113	118	1734194543045773136	CMakeFiles/Section_2.dir/main.cpp.o.modmap	6b8ce6cadabf33e0
+118	635	1734194543050773198	CMakeFiles/Section_2.dir/main.cpp.o	a130bef93adff888
+635	722	1734194543567779667	Section_2	d7f933a9c8acf16b
+2	89	1734194572216138130	CMakeFiles/Section_2.dir/main.cpp.o.ddi	d311e3ed87ea9dc2
+89	93	1734194572303139218	CMakeFiles/Section_2.dir/CXX.dd	6b8ce6cadabf33e0
+89	93	1734194572303139218	/home/adam/Repos/ps_data_structures_and_algorithms/Section 2/cmake-build-debug/CMakeFiles/Section_2.dir/CXXModules.json	6b8ce6cadabf33e0
+89	93	1734194572303139218	CMakeFiles/Section_2.dir/main.cpp.o.modmap	6b8ce6cadabf33e0
+93	516	1734194572307139268	CMakeFiles/Section_2.dir/main.cpp.o	a130bef93adff888
+516	586	1734194572730144561	Section_2	d7f933a9c8acf16b
+3	105	1734194592848396290	CMakeFiles/Section_2.dir/main.cpp.o.ddi	d311e3ed87ea9dc2
+106	109	1734194592951397579	CMakeFiles/Section_2.dir/CXX.dd	6b8ce6cadabf33e0
+106	109	1734194592951397579	/home/adam/Repos/ps_data_structures_and_algorithms/Section 2/cmake-build-debug/CMakeFiles/Section_2.dir/CXXModules.json	6b8ce6cadabf33e0
+106	109	1734194592951397579	CMakeFiles/Section_2.dir/main.cpp.o.modmap	6b8ce6cadabf33e0
+110	565	1734194592955397629	CMakeFiles/Section_2.dir/main.cpp.o	a130bef93adff888
+565	628	1734194593410403322	Section_2	d7f933a9c8acf16b
+2	84	1734194775291045044	CMakeFiles/Section_2.dir/main.cpp.o.ddi	d311e3ed87ea9dc2
+84	87	1734194775373046239	CMakeFiles/Section_2.dir/CXX.dd	6b8ce6cadabf33e0
+84	87	1734194775373046239	/home/adam/Repos/ps_data_structures_and_algorithms/Section 2/cmake-build-debug/CMakeFiles/Section_2.dir/CXXModules.json	6b8ce6cadabf33e0
+84	87	1734194775373046239	CMakeFiles/Section_2.dir/main.cpp.o.modmap	6b8ce6cadabf33e0
+88	540	1734194775377046298	CMakeFiles/Section_2.dir/main.cpp.o	a130bef93adff888
+540	605	1734194775829052888	Section_2	d7f933a9c8acf16b
+2	100	1734194985363680742	CMakeFiles/Section_2.dir/main.cpp.o.ddi	d311e3ed87ea9dc2
+100	105	1734194985461681945	CMakeFiles/Section_2.dir/CXX.dd	6b8ce6cadabf33e0
+100	105	1734194985461681945	/home/adam/Repos/ps_data_structures_and_algorithms/Section 2/cmake-build-debug/CMakeFiles/Section_2.dir/CXXModules.json	6b8ce6cadabf33e0
+100	105	1734194985461681945	CMakeFiles/Section_2.dir/main.cpp.o.modmap	6b8ce6cadabf33e0
+105	739	1734194985466682006	CMakeFiles/Section_2.dir/main.cpp.o	a130bef93adff888
+739	839	1734194986100689789	Section_2	d7f933a9c8acf16b
+1	106	1734195045506419023	CMakeFiles/Section_2.dir/main.cpp.o.ddi	d311e3ed87ea9dc2
+106	110	1734195045611420312	CMakeFiles/Section_2.dir/CXX.dd	6b8ce6cadabf33e0
+106	110	1734195045611420312	/home/adam/Repos/ps_data_structures_and_algorithms/Section 2/cmake-build-debug/CMakeFiles/Section_2.dir/CXXModules.json	6b8ce6cadabf33e0
+106	110	1734195045611420312	CMakeFiles/Section_2.dir/main.cpp.o.modmap	6b8ce6cadabf33e0
+111	662	1734195045616420373	CMakeFiles/Section_2.dir/main.cpp.o	a130bef93adff888
+662	754	1734195046167427137	Section_2	d7f933a9c8acf16b
+2	107	1734195123276373706	CMakeFiles/Section_2.dir/main.cpp.o.ddi	d311e3ed87ea9dc2
+107	112	1734195123381374995	CMakeFiles/Section_2.dir/CXX.dd	6b8ce6cadabf33e0
+107	112	1734195123381374995	/home/adam/Repos/ps_data_structures_and_algorithms/Section 2/cmake-build-debug/CMakeFiles/Section_2.dir/CXXModules.json	6b8ce6cadabf33e0
+107	112	1734195123381374995	CMakeFiles/Section_2.dir/main.cpp.o.modmap	6b8ce6cadabf33e0
+112	645	1734195123386375057	CMakeFiles/Section_2.dir/main.cpp.o	a130bef93adff888
+646	731	1734195123920381612	Section_2	d7f933a9c8acf16b
+2	81	1734196478954952283	CMakeFiles/Section_2.dir/main.cpp.o.ddi	d311e3ed87ea9dc2
+81	84	1734196479033953231	CMakeFiles/Section_2.dir/CXX.dd	6b8ce6cadabf33e0
+81	84	1734196479033953231	/home/adam/Repos/ps_data_structures_and_algorithms/Section 2/cmake-build-debug/CMakeFiles/Section_2.dir/CXXModules.json	6b8ce6cadabf33e0
+81	84	1734196479033953231	CMakeFiles/Section_2.dir/main.cpp.o.modmap	6b8ce6cadabf33e0
+85	511	1734196479037953279	CMakeFiles/Section_2.dir/main.cpp.o	a130bef93adff888
+511	572	1734196479463958392	Section_2	d7f933a9c8acf16b
+1	101	1734196492167110845	CMakeFiles/Section_2.dir/main.cpp.o.ddi	d311e3ed87ea9dc2
+101	105	1734196492266112033	CMakeFiles/Section_2.dir/CXX.dd	6b8ce6cadabf33e0
+101	105	1734196492266112033	/home/adam/Repos/ps_data_structures_and_algorithms/Section 2/cmake-build-debug/CMakeFiles/Section_2.dir/CXXModules.json	6b8ce6cadabf33e0
+101	105	1734196492266112033	CMakeFiles/Section_2.dir/main.cpp.o.modmap	6b8ce6cadabf33e0
+105	595	1734196492270112081	CMakeFiles/Section_2.dir/main.cpp.o	a130bef93adff888
+595	667	1734196492760117962	Section_2	d7f933a9c8acf16b
+2	102	1734196716108814938	CMakeFiles/Section_2.dir/main.cpp.o.ddi	d311e3ed87ea9dc2
+102	105	1734196716208816146	CMakeFiles/Section_2.dir/CXX.dd	6b8ce6cadabf33e0
+102	105	1734196716208816146	/home/adam/Repos/ps_data_structures_and_algorithms/Section 2/cmake-build-debug/CMakeFiles/Section_2.dir/CXXModules.json	6b8ce6cadabf33e0
+102	105	1734196716208816146	CMakeFiles/Section_2.dir/main.cpp.o.modmap	6b8ce6cadabf33e0
+105	648	1734196716211816182	CMakeFiles/Section_2.dir/main.cpp.o	a130bef93adff888
+648	735	1734196716754822745	Section_2	d7f933a9c8acf16b
+2	80	1734196777580557859	CMakeFiles/Section_2.dir/main.cpp.o.ddi	d311e3ed87ea9dc2
+80	83	1734196777658558802	CMakeFiles/Section_2.dir/CXX.dd	6b8ce6cadabf33e0
+80	83	1734196777658558802	/home/adam/Repos/ps_data_structures_and_algorithms/Section 2/cmake-build-debug/CMakeFiles/Section_2.dir/CXXModules.json	6b8ce6cadabf33e0
+80	83	1734196777658558802	CMakeFiles/Section_2.dir/main.cpp.o.modmap	6b8ce6cadabf33e0
+83	503	1734196777661558838	CMakeFiles/Section_2.dir/main.cpp.o	a130bef93adff888
+503	565	1734196778081563914	Section_2	d7f933a9c8acf16b
+4	92	1734197683665647650	CMakeFiles/Section_2.dir/main.cpp.o.ddi	d311e3ed87ea9dc2
+92	96	1734197683753648723	CMakeFiles/Section_2.dir/CXX.dd	6b8ce6cadabf33e0
+92	96	1734197683753648723	/home/adam/Repos/ps_data_structures_and_algorithms/Section 2/cmake-build-debug/CMakeFiles/Section_2.dir/CXXModules.json	6b8ce6cadabf33e0
+92	96	1734197683753648723	CMakeFiles/Section_2.dir/main.cpp.o.modmap	6b8ce6cadabf33e0
+96	582	1734197683757648772	CMakeFiles/Section_2.dir/main.cpp.o	a130bef93adff888
+582	658	1734197684243654701	Section_2	d7f933a9c8acf16b
